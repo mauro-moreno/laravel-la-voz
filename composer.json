@@ -1,0 +1,23 @@
+{
+  "name": "zephia/laravel-la-voz",
+  "description": "Laravel wrapper for the La Voz Feed Generator package",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mauro Moreno",
+      "email": "moreno.mauro.emanuel@gmail.com"
+    }
+  ],
+  "require": {
+    "zephia/la-voz": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zephia\\LaravelLaVoz\\": "src"
+    }
+  },
+  "require-dev": {
+    "laravel/framework": "^5.3"
+  }
+}
